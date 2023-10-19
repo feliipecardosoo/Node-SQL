@@ -1,0 +1,168 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+}
+
+#navbar a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    background-color: #2e3b4e; /* Mudança de cor de fundo */
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+}
+
+/* Form and Books Container */
+.form,
+.books-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* Form Controls */
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+/* Book Container */
+.books-container div {
+    border-bottom: 1px solid #ccc; /* Borda inferior de 1px com cor cinza */
+    padding: 10px; /* Espaçamento interno de 10px em todos os lados */
+    margin: 10px; /* Margem externa de 10px em todos os lados */
+    background-color: #f0f0f0; /* Cor de fundo de fundo */
+    font-family: "Arial", sans-serif; /* Troca a fonte para Arial, ou uma fonte sans-serif genérica, se Arial não estiver disponível */
+}
+
+.books-container div:hover {
+    background-color: #e0e0e0; /* Mudança de cor de fundo no hover */
+}
+
+/* Bold Text */
+.bold {
+    font-weight: bold;
+}
+
+/* Book Page */
+#book-page {
+    padding: 2em;
+}
+
+#book-page .container {
+    text-align: center;
+}
+
+.actions {
+    margin-top: 1em;
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.actions a {
+    display: block; /* Torna o elemento 'a' um elemento em bloco */
+    margin: 0 auto 1em; /* Margem no topo e no fundo para separar os elementos */
+    padding: 10px 20px; /* Espaçamento interno para o elemento 'a */
+    background-color: #2e3b4e; /* Cor de fundo */
+    color: #FFF; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Borda arredondada */
+    font-weight: bold;
+    max-width: 140px; /* Define uma largura máxima para a tag 'a' */
+}
+
+.actions a:hover {
+    background-color: #1c293a; /* Mudança de cor de fundo no hover */
+}
+
+.actions input {
+    display: block; /* Torna o input um elemento em bloco */
+    margin: 0 auto; /* Centraliza horizontalmente o input */
+    padding: 10px; /* Espaçamento interno para o input */
+    border: 1px solid #2e3b4e; /* Borda do input */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para #a-adicionar */
+#a-adicionar {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    background-color: #2e3b4e;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap; /* Evita a quebra de linha */
+}
+
+#a-adicionar:hover {
+    background-color: #1c293a; /* Nova cor de fundo no hover */
+    color: #FFD700; /* Nova cor do texto no hover */
+}
+
+#input-cadastro {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    background-color: #2e3b4e;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap; /* Evita a quebra de linha */
+    margin-left: 130px;
+}
+
+#input-cadastro:hover {
+    background-color: #1c293a; /* Nova cor de fundo no hover */
+    color: #FFD700; /* Nova cor do texto no hover */
+}
